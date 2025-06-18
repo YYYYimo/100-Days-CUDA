@@ -1,0 +1,3 @@
+# README
+
+This CUDA program estimates the definite integral of the function \( y = x^2 \) over the interval \([0, 1]\) using the Monte Carlo method. The computation is parallelized on the GPU, where each thread generates random samples, evaluates the function, and accumulates the results. The final estimate is printed alongside the theoretical value (\(1/3\)) for comparison. This demonstrates how to use CUDA for parallel Monte Carlo integration.
